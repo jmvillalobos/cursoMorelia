@@ -1,0 +1,10 @@
+#Este es un script que procesa mis tablas:
+
+
+library(annotate)
+library(GO.db)
+
+roots = c("GO:0003673","GO:0003674","GO:0005575","GO:0008150","all")
+
+tabla_GOmi=read.table("~/Downloads/Micelioptera/para_GOterms/Anot_unida_Micel.txt", header=TRUE, sep="\t")
+head(tabla_GOmi)

@@ -3,3 +3,4 @@ Curso
 
 ##con este script leo los programas en R.
 
+https://github.com/jmvillalobos/cursoMorelia/blob/main/sriptR

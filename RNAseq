@@ -1,0 +1,17 @@
+###Lección 2
+por Manuel Villalobos
+
+##Análisis de expresión diferencial
+Ahora veremos cómo se realiza un análisis de expresión diferencial, para esto usaremos la tabla de datos de un experimento que realizó el Dr. Sergio Campos de LANGEBIO. En este trabajo se pretendía evaluar la respuesta transcripcional de la levadura Saccharomyces cerevisiae a la carencia de nitrógeno y además se deseaba saber si el factor de transcripción Ste12 tiene un papel relevante en dicha respuesta transcripcional. Con este fin se ideo un experimento de RNA-seq tanto en un medio rico como carente de toda fuente de nitrógeno, usando a la cepa silvestre de S. cerevisiae y a la mutante nula del factor de transcripción.
+
+#Comenzaremos viendo como instalar los programas que necesitamos
+
+#instalando paqueterias de bioconductor
+#source("https://bioconductor.org/biocLite.R") 
+#biocLite("edgeR")
+#biocLite("limma")
+
+
+#necesitamos cargar edgeR y limma, para eso usamos la funsión library
+library(edgeR)
+
